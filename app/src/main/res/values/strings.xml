@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Basic list</string>
+    <string name="item_title_default">Title</string>
+    <string name="item_subtitle_default">Subtitle</string>
+
+    <!--Alert dialogs-->
+    <string name="dialog_addPerson_title">Add person</string>
+    <string name="dialog_addPossession_title">Add possession</string>
+
+    <string name="dialog_delete_title">Confirm delete</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this?</string>
+
+    <!--Buttons-->
+    <string name="button_add_item">Add item</string>
+    <string name="button_add">Add</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">Ok</string>
+
+    <!--People-->
+    <string name="people_name">Name</string>
+    <string name="people_age">Age</string>
+
+</resources>

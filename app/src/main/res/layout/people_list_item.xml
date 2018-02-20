@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/person_element"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/selector_row">
+
+    <TextView
+        android:id="@+id/people_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:text=""
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/people_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/text_black"
+        android:text="@string/item_title_default"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/people_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_subtitle_default"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:visibility="visible"/>
+
+    <View style="@style/Divider"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lista básica</string>
+    <string name="item_title_default">Título</string>
+    <string name="item_subtitle_default">Subtítulo</string>
+
+    <!--Alert dialogs-->
+    <string name="dialog_addPerson_title">Agregar persona</string>
+    <string name="dialog_addPossession_title">Agregar posesión</string>
+
+    <string name="dialog_delete_title">Confirmar eliminación</string>
+    <string name="dialog_delete_message">¿Estás seguro que deseas borrar esto?</string>
+
+    <!--Buttons-->
+    <string name="button_add_item">Agregar ítem</string>
+    <string name="button_add">Agregar</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_ok">Ok</string>
+
+    <!--People-->
+    <string name="people_name">Nombre</string>
+    <string name="people_age">Edad</string>
+
+</resources>
